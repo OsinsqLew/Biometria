@@ -12,7 +12,7 @@ def euclidean_distance(embedding1, embedding2):
 models = ["VGG-Face", "Facenet", "OpenFace", "ArcFace"]
 detector_backends = ["opencv", "mtcnn", "retinaface"]
 
-photos = ["photos/photo-9-1.jpeg", "photos/photo-9-2.jpeg", "photos/photo-9-3.jpeg"]
+photos = ["photos/photo-12-1.jpeg", "photos/photo-12-3.jpeg"]
 photo_embd = {}
 
 # Lista wyników
@@ -59,7 +59,7 @@ for model in models:
 df = pd.DataFrame(results)
 
 # Zapisanie wyników do pliku CSV
-df.to_csv("light_9.csv", index=False)
+df.to_csv("reverse-60.csv", index=False)
 
 
 print("\n--- Results saved to csv file ---")
