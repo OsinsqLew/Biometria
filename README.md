@@ -18,9 +18,5 @@ source env/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install dependencies:
 ```
-pip install huggingface_hub numpy opencv-python
-pip install insightface --only-binary :all:
-pip install --upgrade insightface
-pip install onnxruntime
-
+pip install deepface
 ```

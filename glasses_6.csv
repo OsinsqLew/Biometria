@@ -1,0 +1,13 @@
+Model,Algorithm,Photo 1,Photo 2,Cos Sim,Euci
+VGG-Face,opencv,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.45523598575189345,1.0438045930614663
+VGG-Face,mtcnn,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.4553702083054958,1.0436759954071038
+VGG-Face,retinaface,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.4668504621527617,1.0326175844398917
+Facenet,opencv,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7143523640908996,9.249566450363965
+Facenet,mtcnn,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7635765461067193,8.68874075553354
+Facenet,retinaface,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.6521132338068933,10.3954572468385
+OpenFace,opencv,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7714159584235378,0.6761420779661043
+OpenFace,mtcnn,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7751308541175148,0.6706252802359813
+OpenFace,retinaface,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.8252082378802784,0.5912558969495405
+ArcFace,opencv,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.6355068777550151,3.329938456293005
+ArcFace,mtcnn,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7198504966733636,3.395643660985721
+ArcFace,retinaface,photos/photo-6-1.jpeg,photos/photo-6-2.jpeg,0.7567395094830391,2.9014460839822718
